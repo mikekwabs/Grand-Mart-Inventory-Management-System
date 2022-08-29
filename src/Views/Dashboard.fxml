@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="646.0" prefWidth="1004.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HomeController">
+   <children>
+      <AnchorPane prefHeight="646.0" prefWidth="271.0" style="-fx-background-color: #0066ff;" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="AddGoods" layoutY="63.0" mnemonicParsing="false" onAction="#onClickAddGoods" prefHeight="63.0" prefWidth="271.0" stylesheets="@../../../../dsa-project/IMS/src/resources/css/styles.css" text="Add Goods" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="63.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="ViewBills" layoutX="6.0" layoutY="126.0" mnemonicParsing="false" onAction="#onClickViewBills" prefHeight="63.0" prefWidth="271.0" stylesheets="@../../../../dsa-project/IMS/src/resources/css/styles.css" text="View Bills" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="126.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="IssuedGoods" layoutY="189.0" mnemonicParsing="false" onAction="#onClickIsGoods" prefHeight="69.0" prefWidth="271.0" stylesheets="@../../../../dsa-project/IMS/src/resources/css/styles.css" text="Issued Goods" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="189.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button layoutY="258.0" mnemonicParsing="false" onAction="#onClickViewIsGoods" prefHeight="63.0" prefWidth="271.0" stylesheets="@../../../../dsa-project/IMS/src/resources/css/styles.css" text="View Issued Goods" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="258.0">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="DeleteGoods" layoutY="321.0" mnemonicParsing="false" onAction="#onClickDeleteGoods" prefHeight="63.0" prefWidth="271.0" stylesheets="@../../../../dsa-project/IMS/src/resources/css/styles.css" text="Delete Goods" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="321.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button contentDisplay="CENTER" layoutX="20.0" layoutY="455.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="226.0" stylesheets="@../../../../dsa-project/IMS/src/resources/css/styles.css" text="Logout" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="25.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Button>
+            <FontAwesomeIconView fill="WHITE" glyphName="SHOPPING_CART" layoutX="89.0" layoutY="592.0" size="70" />
+            <Button fx:id="ViewGoods" layoutX="14.0" mnemonicParsing="false" onAction="#onClickViewGoods" prefHeight="63.0" prefWidth="271.0" stylesheets="@../../../../dsa-project/IMS/src/resources/css/styles.css" text="View Goods" textFill="WHITE" AnchorPane.rightAnchor="0.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <FontAwesomeIconView fill="WHITE" glyphName="LIST" layoutX="55.0" layoutY="38.0" size="19" />
+            <FontAwesomeIconView fill="WHITE" glyphName="MONEY" layoutX="52.0" layoutY="164.0" size="19" />
+            <FontAwesomeIconView fill="WHITE" glyphName="PLUS" layoutX="55.0" layoutY="101.0" size="19" />
+            <FontAwesomeIconView fill="WHITE" glyphName="LIST" layoutX="57.0" layoutY="230.0" size="19" />
+            <FontAwesomeIconView fill="WHITE" glyphName="EYE" layoutX="53.0" layoutY="296.0" size="19" />
+            <FontAwesomeIconView fill="WHITE" glyphName="TRASH" layoutX="59.0" layoutY="359.0" size="19" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
