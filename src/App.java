@@ -12,8 +12,10 @@ public class App extends Application {
         AnchorPane myPane = loader.load();
 
         // set stage
-        primaryStage.setTitle("Welcome to Grand Mart Inventory Management System");
-        primaryStage.setScene(new Scene(myPane, 1004, 646));
+        primaryStage.setTitle("Login");
+        Scene scene = new Scene(myPane, 450, 476);
+        scene.setRoot(myPane);
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 
