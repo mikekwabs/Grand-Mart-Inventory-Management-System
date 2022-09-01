@@ -1,4 +1,3 @@
-package Controllers;
 
 import javax.swing.JOptionPane;
 
@@ -98,7 +97,7 @@ public class LoginController {
 
     // handle change of scenes
     public void changeScreenButtonPressed(ActionEvent event) throws IOException {
-        Parent tableViewParent = FXMLLoader.load(getClass().getResource("../Views/Dashboard.fxml"));
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("./Views/Dashboard.fxml"));
         Scene tableViewScene = new Scene(tableViewParent);
 
         // Line to get the Stage information from main method

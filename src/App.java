@@ -13,7 +13,7 @@ public class App extends Application {
 
         // set stage
         primaryStage.setTitle("Login");
-        Scene scene = new Scene(myPane, 450, 476);
+        Scene scene = new Scene(myPane, 435, 469);
         scene.setRoot(myPane);
         primaryStage.setScene(scene);
         primaryStage.show();

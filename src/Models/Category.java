@@ -1,38 +1,32 @@
 package Models;
 
-import com.mysql.cj.conf.IntegerProperty;
-import com.mysql.cj.conf.StringProperty;
-
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
-
 public class Category {
-    private SimpleIntegerProperty categoryId;
-    private SimpleStringProperty categoryName;
+    private String categoryId;
+    private String categoryName;
 
     public Category() {
     }
 
-    public Category(int id, String name) {
-        this.categoryId = new SimpleIntegerProperty(id);
-        this.categoryName = new SimpleStringProperty(name);
+    public Category(String id, String name) {
+        this.categoryId = new String(id);
+        this.categoryName = new String(name);
 
     }
 
-    public int getCategoryId() {
-        return categoryId.get();
+    public String getCategoryId() {
+        return categoryId;
     }
 
     public String getCategoryName() {
-        return categoryName.get();
+        return categoryName;
     }
 
-    public void setCategoryId(int id) {
-        this.categoryId.set(id);
+    public void setCategoryId(String id) {
+        this.categoryId = id;
     }
 
     public void setCategoryName(String name) {
-        this.categoryName.set(name);
+        this.categoryName = name;
     }
 
 }

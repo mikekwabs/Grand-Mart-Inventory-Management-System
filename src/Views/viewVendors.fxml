@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="757.0" prefWidth="973.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewVendorsController">
+   <children>
+      <Label layoutX="121.0" layoutY="58.0" text="View Vendors">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="productsTable" layoutX="124.0" layoutY="193.0" prefHeight="402.0" prefWidth="761.0">
+         <columns>
+            <TableColumn fx:id="vendorIdColumn" prefWidth="120.0" text="Vendor Id" />
+            <TableColumn fx:id="vendorNameColumn" prefWidth="150.0" text="Vendor Name" />
+            <TableColumn fx:id="cNameColumn" prefWidth="180.0" text="Company Name" />
+            <TableColumn fx:id="addressColumn" prefWidth="150.0" text="Address" />
+            <TableColumn fx:id="phoneColumn" prefWidth="160.0" text="Phone" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

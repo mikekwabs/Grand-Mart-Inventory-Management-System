@@ -8,36 +8,36 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
    <children>
-      <Label layoutX="32.0" layoutY="70.0" text="Login" textFill="#0066ff">
+      <Label layoutX="93.0" layoutY="89.0" text="Login" textFill="#0066ff">
          <font>
-            <Font name="Berlin Sans FB Demi Bold" size="36.0" />
+            <Font name="Berlin Sans FB Demi Bold" size="40.0" />
          </font>
       </Label>
-      <Label layoutX="33.0" layoutY="180.0" text="Username">
+      <Label layoutX="96.0" layoutY="167.0" text="Username">
          <font>
-            <Font name="System Bold" size="15.0" />
+            <Font size="15.0" />
          </font>
       </Label>
-      <TextField fx:id="textUsername" layoutX="123.0" layoutY="175.0" prefHeight="32.0" prefWidth="239.0" promptText="enter your username" style="-fx-border-color: black;">
+      <TextField fx:id="textUsername" layoutX="94.0" layoutY="202.0" prefHeight="32.0" prefWidth="234.0" promptText="Enter your username" style="-fx-border-color: black;">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <Label layoutX="32.0" layoutY="248.0" text="Password">
+      <Label layoutX="96.0" layoutY="254.0" text="Password">
          <font>
-            <Font name="System Bold" size="15.0" />
+            <Font size="15.0" />
          </font>
       </Label>
-      <PasswordField fx:id="textPassword" layoutX="123.0" layoutY="243.0" prefHeight="32.0" prefWidth="239.0" promptText="enter password here" style="-fx-border-color: black;">
+      <PasswordField fx:id="textPassword" layoutX="96.0" layoutY="287.0" prefHeight="32.0" prefWidth="234.0" promptText="Enter password here" style="-fx-border-color: black;">
          <font>
             <Font size="13.0" />
          </font>
       </PasswordField>
-      <Button fx:id="buttonLogin" layoutX="280.0" layoutY="314.0" mnemonicParsing="false" onAction="#login" opacity="0.98" prefHeight="32.0" prefWidth="82.0" text="Login">
+      <Button fx:id="buttonLogin" layoutX="98.0" layoutY="348.0" mnemonicParsing="false" onAction="#login" opacity="0.98" prefHeight="32.0" prefWidth="234.0" style="-fx-background-color: #0066ff;" text="Login" textFill="WHITE">
          <font>
-            <Font size="14.0" />
+            <Font size="15.0" />
          </font>
          <effect>
             <Blend />
