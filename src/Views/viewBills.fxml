@@ -14,7 +14,7 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <TableView fx:id="productsTable" layoutX="50.0" layoutY="210.0" prefHeight="474.0" prefWidth="889.0">
+      <TableView fx:id="productsTable" layoutX="50.0" layoutY="210.0" prefHeight="400.0" prefWidth="889.0">
          <columns>
             <TableColumn fx:id="invoiceNumberColumn" prefWidth="100.0" text="Invoice Number" />
             <TableColumn fx:id="prodNameColumn" prefWidth="200.0" text="Product Name" />

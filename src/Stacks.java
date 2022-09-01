@@ -1,6 +1,9 @@
 
-
 //stack implementation
+
+
+
+
 import java.util.Vector;
 
 public class Stacks {

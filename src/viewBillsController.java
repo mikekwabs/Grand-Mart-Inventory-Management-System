@@ -72,13 +72,13 @@ public class viewBillsController implements Initializable {
     }
 
     private void initCols() {
-        invoiceNumberColumn.setCellValueFactory(new PropertyValueFactory<>("Invoice Number"));
-        prodNameColumn.setCellValueFactory(new PropertyValueFactory<>("Product Name"));
-        quantityColumn.setCellValueFactory(new PropertyValueFactory<>("Quantity"));
-        inDateColumn.setCellValueFactory(new PropertyValueFactory<>("Invoice Date"));
-        dueDateColumn.setCellValueFactory(new PropertyValueFactory<>("Due Date"));
-        billedAmountColumn.setCellValueFactory(new PropertyValueFactory<>("Billed Amount"));
-        balanceColumn.setCellValueFactory(new PropertyValueFactory<>("Balance"));
+        invoiceNumberColumn.setCellValueFactory(new PropertyValueFactory<>("invoiceNumber"));
+        prodNameColumn.setCellValueFactory(new PropertyValueFactory<>("prodName"));
+        quantityColumn.setCellValueFactory(new PropertyValueFactory<>("quantity"));
+        inDateColumn.setCellValueFactory(new PropertyValueFactory<>("invoiceDate"));
+        dueDateColumn.setCellValueFactory(new PropertyValueFactory<>("dueDate"));
+        billedAmountColumn.setCellValueFactory(new PropertyValueFactory<>("billAmount"));
+        balanceColumn.setCellValueFactory(new PropertyValueFactory<>("balance"));
 
     }
 
@@ -88,7 +88,7 @@ public class viewBillsController implements Initializable {
 
         try {
 
-            String sql = "";
+            String sql = "SELECT * FROM `bills`";
             connection = DriverManager.getConnection("jdbc:mysql://localhost/grandmart_db", "root", "");
             pst = connection.prepareStatement(sql);
 
