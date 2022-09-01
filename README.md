@@ -19,5 +19,8 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## Screenshots of the homepage and login screen
 
-![homepage](https://user-images.githubusercontent.com/62227915/185089017-249af547-8ea3-48ad-8fd7-cceb6f020035.png)
-![login](https://user-images.githubusercontent.com/62227915/185089039-493de8de-703d-4cc9-9bd1-1bfb8ed20041.png)
+![Screenshot (560)](https://user-images.githubusercontent.com/62227915/187683595-011b182e-247c-4093-8267-1f1e46895ee2.png)
+![Screenshot (561)](https://user-images.githubusercontent.com/62227915/187683633-86e7cbeb-e60d-40bc-812e-4021244044b4.png)
+![Screenshot (562)](https://user-images.githubusercontent.com/62227915/187683653-96210f9b-7108-44db-9e95-7397a6c8ce28.png)
+![Screenshot (563)](https://user-images.githubusercontent.com/62227915/187683670-fd93a10f-59a8-4869-b61b-776248e472bd.png)
+
